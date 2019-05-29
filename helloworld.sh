@@ -1,2 +1,3 @@
 echo "hello world"
-hi hello git on hands 
+hi hello git on hands
+hit on it
