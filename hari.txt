@@ -4,3 +4,4 @@ $b = 20
 $c = $a + $b
 write-host "display output error"
 $c
+varibles store the data it lloks like a memeory
