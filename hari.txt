@@ -5,3 +5,4 @@ $c = $a + $b
 write-host "display output error"
 $c
 [datetime]$date = 10/20/2020
+varibles store the data it lloks like a memeory
