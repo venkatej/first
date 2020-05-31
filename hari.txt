@@ -1,0 +1,6 @@
+write-host "display bellow commands"
+$a = 10
+$b = 20
+$c = $a + $b
+write-host "display output error"
+$c
