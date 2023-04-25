@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schema.maanagement.azure.com/waaea"
+    "contentVerson": "1.0.0.0"
+    "metadata": {
+        "generator":{
+            "Name": "bicep"
+            "version": "dasfsfd"
+        }
+    }
+
+"paramName": {
+    "adminusername": {
+        "type": "string"
+        "metadata": {
+            "description": "this is the name of the machine"
+        }
+    }
+    "adminpassword":{
+        "type": "string"
+        "metadata":{
+            "description": "dsdfd"
+        }
+    }
+}
+"variables": {
+    "storageAccountName": "[format(bootdigs{0}, uniquestring(resourcegroup().id))"
+    "nicName": "mynic"
+    "addressprefix":"192.0.0.0/24"
+    "subnetName": "nyff"
+}
+
+"resources": [
+    {
+        "type": "microsoft.storage/storageAccount"
+        "ApiVersion": "1"
+    }
+]
+
+
+
+}
