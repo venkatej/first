@@ -1,5 +1,5 @@
 @minLength(5)
-@maxLength(12)
+@maxLength(50)
 @description('provide he name of the description')
 param acrName string = 'acr${uniqueString(resourceGroup().id)}'
 @description('provide the location of arc')
